@@ -1,2 +1,2 @@
-# pytorch_Cascade_Bert_ner
+# pytorch_Cascade_Bert_Ner
 基于pytorch的级联Bert用于中文命名实体识别。
