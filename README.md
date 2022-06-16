@@ -23,6 +23,7 @@ pytorch==1.6.0
 tensorboasX
 seqeval
 pytorch-crf==0.7.2
+transformers==4.4.0
 ```
 
 # 运行
