@@ -1,4 +1,12 @@
 # pytorch_Cascade_Bert_Ner
+延申：
+- 一种级联Bert用于命名实体识别，解决标签过多问题：https://github.com/taishan1994/pytorch_Cascade_Bert_Ner
+- 一种多头选择Bert用于命名实体识别：https://github.com/taishan1994/pytorch_Multi_Head_Selection_Ner
+- 中文命名实体识别最新进展：https://github.com/taishan1994/awesome-chinese-ner
+- 信息抽取三剑客：实体抽取、关系抽取、事件抽取：https://github.com/taishan1994/chinese_information_extraction
+- 一种基于机器阅读理解的命名实体识别：https://github.com/taishan1994/BERT_MRC_NER_chinese
+- W2NER：命名实体识别最新sota：https://github.com/taishan1994/W2NER_predict
+****
 基于pytorch的级联Bert用于中文命名实体识别。
 
 在进行序列标注的任务中，对于每一个类别都会分配一个BI标签。但是当类别数较多时，标签词表规模很大，相当于在每个字上都要做一次类别数巨多的分类任务，这种方式不太科学，也会影响效果【1】。从标签过多这个角度出发，卷友们提出把NER任务拆分成多任务学习，一个任务负责识别token是不是实体，另一个任务判断实体属于哪个类别。这样NER任务的lable 字典就只有"B"、"I"、"UNK"三个值了，速度嗖嗖的；而判断实体属于哪个类别用线性层就可，速度也很快，模型显存占用很少【2】。训练好的模型下载地址：链接：https://pan.baidu.com/s/17Sl6m2BbiU34P6VMYhDOTg?pwd=t5rp  提取码：t5rp
