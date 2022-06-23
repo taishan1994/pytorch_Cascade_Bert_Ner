@@ -1,4 +1,5 @@
 # pytorch_Cascade_Bert_Ner
+[![OSCS Status](https://www.oscs1024.com/platform/badge/taishan1994/pytorch_Cascade_Bert_Ner.svg?size=small)](https://www.oscs1024.com/project/taishan1994/pytorch_Cascade_Bert_Ner?ref=badge_small)
 延申：
 - 一种基于globalpointer的命名实体识别：https://github.com/taishan1994/pytorch_GlobalPointer_Ner
 - 一种基于TPLinker_plus的命名实体识别：https://github.com/taishan1994/pytorch_TPLinker_Plus_Ner
