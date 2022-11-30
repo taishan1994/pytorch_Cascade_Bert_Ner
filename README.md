@@ -26,7 +26,7 @@
 
 需要注意的是在数据处理的时候和训练的时候相关的参数要保持一致。模型结构【2】：
 
-![model](image/model.jpg)
+![model](https://pic1.zhimg.com/80/v2-638aa80551392053d0dd02ef6a18bc20_1440w.webp)
 
 # 依赖
 
