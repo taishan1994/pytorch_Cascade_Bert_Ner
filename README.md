@@ -66,7 +66,7 @@ python main.py \
 --use_lstm='False' \
 --use_crf='True' \
 --dropout_prob=0.3 \
---dropout=0.3 \
+--dropout=0.3
 
 ```
 
